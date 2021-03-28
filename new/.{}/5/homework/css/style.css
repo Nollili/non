@@ -1,0 +1,18 @@
+body{
+    font-family: 'roboto', sans-serif;
+}
+a{
+    color:#111 !important;
+}
+.btn-dark{
+    background-color: #525252;
+    color:#fff;
+}
+.btn-danger,
+.btn-danger:hover{
+    background-color: coral;
+}
+.container-fluid{
+    color: #fff;
+    background-color: #525252;
+}
