@@ -1,0 +1,96 @@
+#task_first,
+#task_two,
+#task_three{
+    cursor: pointer;    
+}
+/* START: Task 1 Styles */
+td {
+    height:150px;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+.green{
+    background-color:darkgreen;
+}
+.blue {
+    background-color:darkblue;
+}
+.yellow {
+    background-color:gold;
+}
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+#task2 {
+    width: 600px;
+    margin:20px;
+}
+.phone{
+    width: 450px;
+    height:20px;
+    display: inline;
+}
+.submit{
+    height:30px;
+    width: 60px;
+    cursor: pointer;
+}
+.message-container{
+    margin-bottom: 20px;
+}
+.hidden{
+    display: none;
+}
+.message-invalid{
+    padding-left: 10px;
+    border: 1px solid red;
+    background-color:crimson
+}
+.message-valid{
+    padding-left: 10px;
+    border: 1px solid green;
+    background-color:forestgreen;
+}
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+.basketball-court{
+    background-image: url(./assets/court.png);
+    background-size: cover;
+    height: 330px;
+    width: 600px;
+}
+.ball{
+    transform: translate3d(285px, 140px, 0);
+    transition: transform .4s ease-in;
+}
+.scores{
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+.leftRing{
+    height: 15px;
+    width: 15px;
+    background:white;
+    position: relative;
+    top: 157px;
+    left: 35px;
+    border-radius:50%
+}
+.rightRing{
+    height: 15px;
+    width: 15px;
+    background:white;
+    position: relative;
+    top: 142px;
+    left: 561px;
+    border-radius:50%
+}
+h2{
+    margin: auto;
+}
+/* END: Task 3 Styles */

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 15 - JS DOM Events</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button id="task_first">TASK 1</button>
+  <button id="task_two">TASK 2</button>
+  <button id="task_three">TASK 3</button>
+  <button id="removeBtn">Remove template</button>
+  
+  <div id="task1"></div>
+  <template id=task-1>
+    <table id="table">
+      <tbody>
+        <tr id="first-row">
+          <td class="cell first-cell"> CELL
+          </td>
+          <td class="cell"> CELL
+          </td>
+          <td class="cell"> CELL
+          </td>
+        </tr>
+        <tr id="second-row">
+          <td class="cell first-cell"> CELL
+          </td>
+          <td class="special-cell"> SPECIAL <br>CELL
+          </td>
+          <td class="cell"> CELL
+          </td>
+        </tr>
+        <tr id="third-row">
+          <td class="cell first-cell"> CELL
+          </td>
+          <td class="cell"> CELL
+          </td>
+          <td class="cell"> CELL
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </template>
+  <div id="task2"></div>
+    <template id=task-2>
+      <div class="message-container">
+        <div class="message-invalid hidden">
+          <h2>Type number does not follow format</h2>
+          <p> +380*********</p>
+        </div>
+        <div class="message-valid hidden">
+          <h2>Data was successfully sent</h2>
+        </div>
+      </div>
+      <div class="form-container">
+        <input type="tel" class="phone" name="phone" placeholder=" type phone number in format +380*********">
+        <button type="submit" class="submit">Send</button>
+      </div>
+    </template>
+  <div id="task3"></div>
+    <template id=task-3>
+    <div class="basketball-court">      
+      <div class="leftRing"></div>
+      <div class="rightRing"></div>
+      <div class="ball"><img src="./assets/ball.png" width="40px"></div>
+    </div>      
+    <div class="scores">
+      <span class="team-a">
+        Team A: <span class="teamA"></span>
+      </span>
+      <span class="team-b">
+        Team B:  <span class="teamB"></span>
+      </span>
+      <h2><span class="notification"></span></h2>
+    </div>
+    </template>
+  <script src="./index.js"></script>
+</body>
+</html>
